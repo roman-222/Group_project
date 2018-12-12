@@ -21,7 +21,7 @@
 					<ul class="prime-nav-ul">
 						<li><a href="index.html">главная</a></li>
 						<li><a href="">меню</a></li>
-						<li><a href="contacts.html">контакты</a></li>
+						<li><a href="">контакты</a></li>
 						<li><a href="">о нас</a></li>
 					</ul>
 				</nav>
@@ -33,7 +33,7 @@
 			    <nav class="menu-nav">
 			      <a class="menu-nav__link" href="#">ГЛАВНАЯ</a>
 			      <a class="menu-nav__link" href="#">МЕНЮ</a>
-			      <a class="menu-nav__link" href="contacts.html">КОНТАКТЫ</a>
+			      <a class="menu-nav__link" href="#">КОНТАКТЫ</a>
 			      <a class="menu-nav__link" href="#">О НАС</a>
 			    </nav>
 			    
@@ -52,10 +52,10 @@
 				<div class="banner-action-h1"><h1>uno momento</h1></div>
 				<div class="banner-action-cl">cafe, lounge</div>
 				<div class="banner-action-lo">У нас все в два раза вкуснее <br> особенно в компании семьи и друзей</div>
-				<a class="btn banner-btn" href="">Меню блюд</a>
+				<a class="btn banner-btn" href="#">Меню блюд</a>
 			</div>
 			<div class="banner-action-img">
-				<img src="images/banner.png" alt="">
+				<img src="images_my/background-blurry-restaurant-shop-interior_crop.jpg" height=""	alt="">
 			</div>
 		</div>
 		<div class="map-about">
@@ -64,9 +64,23 @@
 					<!-- *** -->
 				</div>
 				<div class="about">
-					<p class="about-dp">Добро пожаловать</p>
+					<div class="form"> <!-- форма обратной связи -->
+	<p><h1>Наши контакты</h1></p>
+ <form action="handler.php" method="get | post"> <!-- обработчик php -->
+ 	<fieldset>
+ 		  	<legend>Обратная связь</legend>
+	  		<input type="text" placeholder="Ваше Имя*" name="name" required size="25">
+	  		<input type="text" placeholder="e-mail*" name="email" pattern=".+@+.+" required size="30" title="Введите Ваш e-mail в правильном @ формате"><br><br>
+			<input type="text" placeholder="Сообщение*" name="message" required size="61"><br>
+	  		<input type="submit" value="Отправить">
+	 		<input type="reset" value="Очистить"></p>
+		</legend>
+	</fieldset>
+ </form>
+</div>
+					<!-- <p class="about-dp">Добро пожаловать</p>
 					<p class="about-rvp">Рады Вас приветствовать в нашем ресторане! <br> Мы хотим, чтобы Вы чувствовали себя хорошо и наслаждались едой и приятной атмосферой. <br> Желаем Вам приятного аппетита и приятного отдыха!</p>
-					<p class="about-um">Uno Momento - это ресторан с отличной и уютной атмосферой. <br> Посетите нас и насладитесь завтраком, обедом или ужином в приятной компании. <br> Uno Momento предлагает особую разновидность творческой и современной кухни, которая складывается из международных кулинарных традиций с особым филосовским подходом к приготовлению.</p>
+					<p class="about-um">Uno Momento - это ресторан с отличной и уютной атмосферой. <br> Посетите нас и насладитесь завтраком, обедом или ужином в приятной компании. <br> Uno Momento предлагает особую разновидность творческой и современной кухни, которая складывается из международных кулинарных традиций с особым филосовским подходом к приготовлению.</p> -->
 					<div class="about-img">
 						<img src="images/basilicus.png" alt="">
 					</div>
@@ -116,7 +130,7 @@
 					<a class="main" href="feedback.html">отзывы</a>
 				</div>
 				<div class="list">
-					<a class="main" href="contacts.html">контакты</a>
+					<a class="main" href="">контакты</a>
 				</div>
 			</div>
 				<div class="social">
