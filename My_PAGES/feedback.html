@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Forum|Roboto:400,500,700" rel="stylesheet">
+	<link rel="shortcut icon" href="images/ico.png">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/optimization.css">
+	<title>Uno Momento</title>
+</head>
+<body>
+<!--=================================Шапка========================================-->
+	<header class="header">
+		<div class="header-cont">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo-light.png" alt=""></a>
+			</div>
+			<div class="nav">
+				<nav class="prime-nav">
+					<ul class="prime-nav-ul">
+						<li><a href="index.html">главная</a></li>
+						<li><a href="">меню</a></li>
+						<li><a href="">контакты</a></li>
+						<li><a href="">о нас</a></li>
+					</ul>
+				</nav>
+			</div>
+
+<!--=======================BURGER=====================================-->
+			<div class="section">
+			  <div class="menu-block">
+			    <nav class="menu-nav">
+			      <a class="menu-nav__link" href="#">ГЛАВНАЯ</a>
+			      <a class="menu-nav__link" href="#">МЕНЮ</a>
+			      <a class="menu-nav__link" href="#">КОНТАКТЫ</a>
+			      <a class="menu-nav__link" href="#">О НАС</a>
+			    </nav>
+			    
+			    <a href="#" class="menu-btn">
+			      <span></span>
+			    </a>
+			    
+			  </div>
+			</div>
+<!--==================================================================-->
+		</div>
+	</header>
+
+	<section class="feedback-section">
+		<nav class="breadcrumb-nav">
+			<ul class="breadcrumb">
+				<li><a href="index.html">Главная</a></li>
+				&nbsp > &nbsp
+				<li class="active">Отзывы</li>
+			</ul>
+		</nav>
+		<div class="feedback-form-main">
+			<h2>Оставить отзыв</h2>
+			<form action="#">
+				<fieldset class="">
+					<div class="feedback-group">
+						<div class="feedback-form-left">
+							<label>
+								<p class="label-p">Дата посещения <span class="required">*</span></p>
+								<input class="label-inp label-inp-date" type="date" name="calendar" placeholder="Дата посещения" required="" value="">
+							</label>
+							<label>
+								<p class="label-p">Отзыв <span class="required">*</span></p>
+								<textarea class="label-inp" id="review-textarea" name="comment" rows="5" placeholder="Пожалуйста, оставьте Ваш отзыв. Ваше мнение очень важно для нас." required="" value=""></textarea>
+							</label>
+						</div>
+						<div class="feedback-form-center">
+							<label>
+								<p class="label-p">Имя <span class="required">*</span></p>
+								<input class="label-inp" type="text" name="name" placeholder="Имя" required="" value="">
+							</label>
+							<label>
+								<p class="label-p">Email</p>
+								<input class="label-inp" type="text" name="email" placeholder="Email">
+							</label>
+							<label>
+								<p class="label-p">Телефон</p>
+								<input class="label-inp" type="text" name="phone" placeholder="Телефон">
+							</label>
+						</div>
+						<div class="feedback-form-right">
+							<div class="form-basilicus"></div>
+							<a href="#" class="btn-feedback hvr-bounce-to-bottom hvr-wobble-vertical">отправить</a>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<div class="feedback-area">
+			<h2>Отзывы</h2>
+		</div>
+		
+	</section>
+
+	
+<!--===============================ПОДВАЛ========================================-->
+	<footer class="footer">
+		<div class="footer-cont">
+			<div class="footer-logo">
+				<a href="index.html"><img src="images/logo-light.png" alt=""></a>
+			</div>
+			<div class="footer-nav">
+				<div class="list">
+					<a class="main" href="">меню</a>
+					<a class="second" href="">Салаты</a>
+					<a class="second" href="">Закуски</a>
+					<a class="second" href="">Десерты</a>
+				</div>
+				<div class="list">
+					<a class="main" href="">акции</a>
+					<a class="second" href="">Бизнес-ланч</a>
+					<a class="second" href="">«Доброе утро»</a>
+				</div>
+				<div class="list">
+					<a class="main" href="">услуги</a>
+					<a class="second" href="">Кейтеринг</a>
+				</div>
+				<div class="list">
+					<a class="main" href="">доставка</a>
+				</div>
+				<div class="list">
+					<a class="main" href="">отзывы</a>
+				</div>
+				<div class="list">
+					<a class="main" href="">контакты</a>
+				</div>
+			</div>
+				<div class="social">
+					<div class="social-m">
+						<a href=""><img src="images/VK.png" alt=""></a>
+					</div>
+					<div class="social-m">
+						<a href=""><img src="images/INSTA.png" alt=""></a>
+					</div>
+					<div class="social-m">
+						<a href=""><img src="images/FB.png" alt=""></a>
+					</div>
+				</div>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="scripts/simple.js"></script>
+	
+</body>
+</html>

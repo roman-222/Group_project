@@ -1,0 +1,366 @@
+@media screen and (max-width: 1024px) {
+	/*шапка*/
+	.header {
+		width: 100%;
+	}
+	.header-cont {
+		max-width: 950px;
+	}
+/*ОПТИМИЗАЦИЯ БАННЕРА*/
+	.banner-action {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.banner-action-h1 {
+		text-shadow: 0 0 9px #000;
+	}
+	.banner-action-cl {
+		text-shadow: 0 0 9px #000;
+	}
+	.banner-action-lo {
+		text-shadow: 0 0 9px #000;
+	}
+	.about-img {
+		display: none;
+	}
+	/*подвал*/
+	.footer {
+		width: 100%;
+	}
+	.footer-cont {
+		max-width: 950px;
+	}
+/*=====================================
+=======ОПТИМИЗАЦИЯ ФОРМЫ ОТЗЫВОВ=======
+=====================================*/
+	.feedback-section {
+		width: 100%;
+		padding: 0 35px;
+	}
+}
+@media screen and (max-width: 920px) {
+	/*ОПТИМИЗАЦИЯ ФОРМЫ*/
+	.feedback-group {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		box-shadow: 0px 1px 5px #888;
+	}
+	.feedback-form-left {
+		width: 100%;
+		padding: 20px;
+	}
+	.feedback-form-center {
+		width: 100%;
+		margin-top: -20px;
+		padding: 0 20px;
+	}
+	.form-basilicus {
+		display: none;
+	}
+	.feedback-form-right {
+		margin: 0;
+		padding: 0 20px 20px 20px;
+		width: 100%;
+	}
+	.btn-feedback {
+		width: 170px;
+	}
+	
+}
+@media screen and (max-width: 768px) {
+	/*Оптимизация шапки*/
+
+	.header {
+		width: 100%;
+		height: 115px;
+	}
+	.prime-nav-ul {
+		width: 384px;
+	}
+	.header-cont {
+		max-width: 568px;
+		height: 115px;
+	}
+	.logo img {
+		width: 124px;
+		height: 64px;
+	}
+	/*Оптимизация баннера*/
+	.banner-container {
+		height: 432px;
+	}
+	h1 {
+		font-size: 48px;
+	}
+	.banner-action-h1 {
+		padding-top: 60px;
+		font-family: "Butler";
+	}
+	.banner-action-cl {
+		padding-top: 18px;
+		font-size: 16px;
+	}
+	.banner-action-lo {
+		text-align: center;
+		padding-top: 45px;
+		margin-bottom: 45px;
+		font-size: 24px;
+	}
+	.banner-action-img {
+		position: absolute;
+		right: 0px;
+		top: 0;
+		z-index: 0;
+	}
+	.banner-action-img img {
+		height: 400px;
+	}
+	/*Оптимизация карты и 'добро пожаловать'*/
+	.map-about {
+		height: 347px;
+	}
+	.map-about-lt {
+		height: 347px;
+	}
+	.about {
+		width: 384px;
+		height: 347px;
+		margin-left: 10px;
+	}
+	.about-dp {
+		padding-top: 65px;
+		font-size: 24px;
+	}
+	.about-rvp {
+		padding-top: 25px;
+		font-size: 12px;
+	}
+	.about-um {
+		padding-top: 15px;
+		font-size: 12px;
+	}
+	.map-img {
+		width: 384px;
+		height: 347px;
+	}
+	/*Оптимизация акций услуг и доставки*/
+	.content-esd {
+		margin-top: 20px;
+		flex-direction: column;
+	}
+	.content-esd-int {
+		margin-bottom: 20px;
+	}
+	/*Оптимизация подвала*/
+	.footer-logo {
+		display: none;
+	}
+	.footer-cont {
+		max-width: 568px;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 480px) {
+	.label-inp-date {
+		width: 50%;
+	}
+	
+}
+@media screen and (max-width: 450px) {
+	/*Оптимизация шапки*/
+
+	/*=========================
+	===========BUGER===========
+	=========================*/
+	.section {
+		background: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 9;
+	}
+	.menu-btn {
+		display: block;
+		width: 50px;
+		height: 50px;
+		position: relative;
+		z-index: 100;
+	}
+	.menu-btn span,
+	.menu-btn span::before,
+	.menu-btn span::after {
+		width: 40px;
+		height: 3px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -1.5px;
+		margin-left: -20px;
+		border-radius: 1px;
+		background-color: #aa895d;
+	}
+	.menu-btn span::before,
+	.menu-btn span::after {
+		content: '';
+		display: block;
+		transition: 0.1s;
+	}
+	.menu-btn span::before {
+		transform: translateY(-10px);
+	}
+	.menu-btn span::after {
+		transform: translateY(10px);
+	}
+	.menu-btn_active span {
+		height: 0;
+	}
+	.menu-btn_active span:before {
+		transform: rotate(45deg);
+	}
+	.menu-btn_active span:after {
+		transform: rotate(-45deg);
+	}
+	.menu-block {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		right: 25px;
+	}
+	.menu-nav__link {
+		padding: 20px;
+		display: block;
+		border-bottom: 0.5px solid #03072f;
+		color: #fff;
+	}
+	.menu-nav {
+		position: relative;
+		top: 94px;
+		background-color: #aa895d;
+		transition: 0.5s;
+		transform-origin: right center;
+		transform: scaleX(1) translateX(20%);
+		opacity: 0;
+		border-radius: 1px;
+	}
+	.menu-nav a {
+		color: #03072f;
+		font-weight: bold;
+	}
+	.menu-nav a:hover {
+		color: #fff;
+	}
+	.menu-nav_active {
+		transform: scaleX(1) translateX(0%);
+		opacity: 1;
+	}
+	/*=========================
+	===========КОНЕЦ===========
+	=========================*/
+
+	.prime-nav {
+		display: none;
+	}
+	.header {
+		height: 95px;
+	}
+	.header-cont {
+		max-width: 270px;
+		height: 95px;
+	}
+	/*Оптимизация баннера*/
+	.banner-container {
+		height: 185px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	.banner-action-h1 {
+		padding-top: 30px;
+		padding-bottom: 35px;
+		font-family: "Butler";
+	}
+	.banner-action-cl {
+		display: none;
+	}
+	.banner-action-lo {
+		display: none;
+	}
+	.banner-action-img {
+		position: absolute;
+		right: 0px;
+		top: 0;
+		z-index: 0;
+	}
+	.banner-action-img img {
+		height: 179px;
+	}
+	/*Оптимизация карты*/
+	.map-img {
+		display: none;
+	}
+	.map-about {
+		width: 100%;
+	}
+	.about {
+		width: 270px;
+		height: 305px;
+		margin: auto;
+	}
+	.about-dp {
+		padding-top: 20px;
+		text-align: center;
+		font-size: 24px;
+	}
+	.about-rvp {
+		padding-top: 10px;
+		font-size: 12px;
+	}
+	.about-um {
+		padding-top: 10px;
+		font-size: 12px;
+	}
+	/*Оптимизация акции услуги доставка*/
+	.content-esd-int {
+		width: 320px;
+		height: 261px;
+	}
+	.content-esd-int .events {
+		left: 95px;
+		top: 160px;
+	}
+	.content-esd-int .services {
+		left: 90px;
+		top: 160px;
+	}
+	.content-esd-int .delivery {
+		left: 62px;
+		top: 160px;
+	}
+	/*Оптимизация подвала*/
+	.footer {
+		width: 100%;
+	}
+	.footer-cont {
+		width: 270px;
+	}
+	.second {
+		display: none;
+	}
+	.footer-nav {
+		width: 60%;
+		height: 170px;
+		margin: 0;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+@media screen and (max-width: 320px) {
+	.feedback-section {
+		padding: 5px;
+	}	
+}

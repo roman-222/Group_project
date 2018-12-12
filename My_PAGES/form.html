@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+
+  <title>Тег FORM</title>
+ </head>
+ <body>
+<div class="form"> <!-- форма обратной связи -->
+	<p><h1>Наши контакты</h1></p>
+ <form action="handler.php" method="get | post"> <!-- обработчик php -->
+ 	<fieldset>
+ 		  	<legend>Обратная связь</legend>
+	  		<input type="text" placeholder="Ваше Имя*" name="name" required size="25">
+	  		<input type="text" placeholder="e-mail*" name="email" pattern=".+@+.+" required size="30" title="Введите Ваш e-mail в правильном @ формате"><br><br>
+			<input type="text" placeholder="Сообщение*" name="message" required size="50"><br>
+	  		<input type="submit" value="Отправить">
+	 		<input type="reset" value="Очистить"></p>
+		</legend>
+	</fieldset>
+ </form>
+</div>
+ </body>
+</html>
