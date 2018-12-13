@@ -1,3 +1,14 @@
+.container {
+
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+/*  border: 1px dashed #fcfc06;*/
+} 
+
 h2 {
   font-size: 30px;
   font-family: "Roboto";
@@ -15,6 +26,7 @@ h2 {
   color: rgb(51, 51, 51);
   line-height: 1.2;
   text-align: left;
+  z-index: 130;
  /* position: absolute;*/
 
 /*  z-index: 136;*/
@@ -29,7 +41,22 @@ input {
 
  /* z-index: 138;*/
 }
-.map-img-contacts {
-  background: url(../images/map.png) center center no-repeat;
-  width: 720px;
-  height: 650px;
+.background_img_contacts{ 
+  
+   background: url(../images_my/background-blurry-restaurant-shop-interior_crop.jpg) 100% 100% no-repeat;/* Добавляем фон 
+    height: 862px; /* Высота блока */
+    background-size: cover; /* Масштабируем фон */
+}
+.map-contacts {
+  background-image: url(../images/map.png);
+ /*   border: 2px solid color: rgb(51, 51, 51);  Параметры рамки 
+  background-position: left center;*/
+
+
+  left: 0px;
+  
+  width: 518px;
+  height: 469px;
+    z-index: 129;
+}
+
