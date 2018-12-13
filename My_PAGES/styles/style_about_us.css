@@ -1,0 +1,55 @@
+.container_about_us {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  height: auto;
+    border: 1px dashed #fcfc06;
+} 
+
+h2 {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.background_img_about_us{ 
+  
+   background: url(../images_my/background_about_us.png) 100% 100% no-repeat;/* Добавляем фон */
+    height: 500px; /* Высота блока */
+    background-size: cover; /* Масштабируем фон */
+
+}
+.center_btn {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.paragr_about_us {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  line-height: 1.5;
+  text-align: left;
+ 
+
+
+  /*font-size: 14px;*/
+  /*font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: -159.846px;
+  top: 1189.936px;
+  z-index: 125;*/
+}
+
