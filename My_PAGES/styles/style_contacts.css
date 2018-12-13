@@ -1,12 +1,11 @@
 .container {
-
   width: 1140px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: nowrap;
- border: 1px dashed #fcfc06;
+/* border: 1px dashed #fcfc06;*/
 } 
 
 h2 {
@@ -15,9 +14,6 @@ h2 {
   color: rgb(51, 51, 51);
   line-height: 1.2;
   text-align: center;
- /* position: absolute;*/
- 
-/*  z-index: 140;*/
 }
 .feedback_contacts_legend {
   font-size: 16px;
@@ -26,10 +22,6 @@ h2 {
   color: rgb(51, 51, 51);
   line-height: 1.2;
   text-align: left;
-  z-index: 130;
- /* position: absolute;*/
-
-/*  z-index: 136;*/
 }
 input {
   font-size: 14px;
@@ -37,9 +29,6 @@ input {
   color: rgb(118, 118, 118);
   line-height: 1.2;
   text-align: left;
-/*  position: absolute;*/
-
- /* z-index: 138;*/
 }
 .background_img_contacts{ 
   
@@ -48,19 +37,12 @@ input {
     background-size: cover; /* Масштабируем фон */
 }
 .map-contacts {
-   height: 100px; /* Высота блока */
- /* background-image: url(../images/map.png);*/
- /*   border: 2px solid color: rgb(51, 51, 51);  Параметры рамки 
-  background-position: left center;*/
+  height: auto; /* Высота блока */
+  width: 480px;
+  padding-top: 35px;
+  padding-right: 15px;
+  padding-bottom: 10px;
 
-padding-top: 35px;
-padding-right: 35px;
-
-  left: 0px;
-  top: 1033px;
-  width: 518px;
-  height: 469px;
-  z-index: 129;
 }
 .our_feedback {
   padding-top: 35px;
