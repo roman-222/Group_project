@@ -4,9 +4,9 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: nowrap;
-/*  border: 1px dashed #fcfc06;*/
+ border: 1px dashed #fcfc06;
 } 
 
 h2 {
@@ -43,20 +43,35 @@ input {
 }
 .background_img_contacts{ 
   
-   background: url(../images_my/background-blurry-restaurant-shop-interior_crop.jpg) 100% 100% no-repeat;/* Добавляем фон 
-    height: 862px; /* Высота блока */
+   background: url(../images_my/background-blurry-restaurant-shop-interior_crop.jpg) 100% 100% no-repeat;/* Добавляем фон */
+    height: 500px; /* Высота блока */
     background-size: cover; /* Масштабируем фон */
 }
 .map-contacts {
-  background-image: url(../images/map.png);
+   height: 100px; /* Высота блока */
+ /* background-image: url(../images/map.png);*/
  /*   border: 2px solid color: rgb(51, 51, 51);  Параметры рамки 
   background-position: left center;*/
 
+padding-top: 35px;
+padding-right: 35px;
 
   left: 0px;
-  
+  top: 1033px;
   width: 518px;
   height: 469px;
-    z-index: 129;
+  z-index: 129;
+}
+.our_feedback {
+  padding-top: 35px;
 }
 
+АДРЕС
+Н.Новгород, ул.Королева, 3
+E-MAIL
+info@unomomento.com
+ТЕЛЕФОН
++7 (831) 422 - 81 -79
+РЕЖИМ РАБОТЫ
+с 10:00 до 22:00
+без обеда
