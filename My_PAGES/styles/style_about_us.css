@@ -45,4 +45,13 @@ h2 {
   line-height: 1.5;
   text-align: left;
 }
-
+.banner-action-contacts  {
+  padding-left: 100px;
+  font-family: "Butler";
+  color: rgb(147, 99, 45);
+  line-height: 1.2;
+  text-align: left;
+}
+.banner-action-h1, .banner-action-cl{
+  color: rgb(134, 90, 41);
+  }
