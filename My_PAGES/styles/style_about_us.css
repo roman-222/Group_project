@@ -1,12 +1,19 @@
+.container_about_for_img {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+/*  border: 1px dashed #fcfc06;*/
+} 
 .container_about_us {
   width: 1140px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   height: auto;
-    border: 1px dashed #fcfc06;
+/*    border: 1px dashed #fcfc06;*/
 } 
 
 h2 {
@@ -18,18 +25,16 @@ h2 {
 }
 
 .background_img_about_us{ 
-  
-   background: url(../images_my/background_about_us.png) 100% 100% no-repeat;/* Добавляем фон */
-    height: 500px; /* Высота блока */
+    background: url('../images_my/background_about_us.png') 100% 100%  no-repeat;/* Добавляем фон */
+   /* height: auto;*/ /* Высота блока */
+    margin-top: 3px;
     background-size: cover; /* Масштабируем фон */
-
+    padding-top: 100px;
+ /*     border: 1px dashed red;*/
 }
 .center_btn {
-  flex-direction: row;
-  justify-content: space-between;
+  padding-top: 20px;
 }
-
-
 .paragr_about_us {
   padding-top: 30px;
   padding-left: 50px;
@@ -39,17 +44,5 @@ h2 {
   color: rgb(51, 51, 51);
   line-height: 1.5;
   text-align: left;
- 
-
-
-  /*font-size: 14px;*/
-  /*font-family: "Roboto";
-  color: rgb(51, 51, 51);
-  line-height: 1.2;
-  text-align: center;
-  position: absolute;
-  left: -159.846px;
-  top: 1189.936px;
-  z-index: 125;*/
 }
 
